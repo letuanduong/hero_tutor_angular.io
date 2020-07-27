@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tutorial-heroes"
+    }
+  },
+  "defaultProject": "tutorial-heroes",
+  "cli": {
+    "analytics": "8147d15e-0a43-4af1-b416-4392211385b5"
+  }
 }
