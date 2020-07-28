@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tutorial-heroes": {
+    "angular-tutor-c0220i1": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tutorial-heroes",
+            "outputPath": "dist/angular-tutor-c0220i1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "tutorial-heroes:build"
+            "browserTarget": "angular-tutor-c0220i1:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "tutorial-heroes:build:production"
+              "browserTarget": "angular-tutor-c0220i1:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tutorial-heroes:build"
+            "browserTarget": "angular-tutor-c0220i1:build"
           }
         },
         "test": {
@@ -110,19 +110,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "tutorial-heroes:serve"
+            "devServerTarget": "angular-tutor-c0220i1:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "tutorial-heroes:serve:production"
+              "devServerTarget": "angular-tutor-c0220i1:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "tutorial-heroes",
+  "defaultProject": "angular-tutor-c0220i1",
   "cli": {
-    "analytics": "8147d15e-0a43-4af1-b416-4392211385b5"
+    "analytics": "3a942117-681f-4f3a-bebc-e20d1032967e"
   }
 }
